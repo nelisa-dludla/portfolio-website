@@ -84,7 +84,7 @@ body {
 
 /* PROJECTS SECTION */
 #projects {
-	height: 260vh;
+	height: 300vh;
 }
 
 #project-container {
@@ -165,7 +165,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	max-width: 600px;
-	margin-top: 150px;
+	margin-top: 15vh;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -201,6 +201,7 @@ body {
 
 	#home {
 		height: 100vh;
+		padding-left: 10vw;
 	}
 
 	.hero {
@@ -219,7 +220,6 @@ body {
 
 	.link-buttons {
 		flex-direction: column;
-		/* flex-wrap: wrap; */
 		justify-content: center;
 		gap: 10px;
 	}
@@ -229,6 +229,7 @@ body {
 	}
 
 	.contact-line-one {
+		margin-top: 10vh;
 		font-size: 2rem;
 	}
 
