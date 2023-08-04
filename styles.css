@@ -145,7 +145,7 @@ body {
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding: 10px 40px;
-	margin-top: 100px;
+	margin-top: 13vh;
 }
 
 .icon-text {
@@ -194,7 +194,15 @@ body {
 		position: absolute;
 	}
 
+	#site-links {
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
 	#home {
+		display: flex;
+		padding-left: 10vw;
 		height: 100vh;
 	}
 
@@ -219,11 +227,13 @@ body {
 	}
 
 	#contact {
-		height: 105vh;
+		height: 95vh;
+		flex: 1;
 	}
 
 	#icons {
 		flex-wrap: wrap;
+		margin-top: 6vh;
 	}
 }
 
