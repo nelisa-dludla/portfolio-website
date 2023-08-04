@@ -48,7 +48,7 @@ body {
 /* HOME SECTION */
 #home {
 	padding-top: 25vh;
-	padding-left: 20vw;
+	padding-left: 15vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -84,7 +84,7 @@ body {
 
 /* PROJECTS SECTION */
 #projects {
-	height: 295vh;
+	height: 260vh;
 }
 
 #project-container {
@@ -201,18 +201,16 @@ body {
 	}
 
 	#home {
-		display: flex;
-		padding-left: 10vw;
 		height: 100vh;
 	}
 
 	.hero {
-		font-size: 4rem;
+		font-size: 3.6rem;
 		margin: 0.5vh 0;
 	}
 
 	#projects {
-		height: 220vh;
+		height: 250vh;
 	}
 
 	.project-item {
@@ -221,13 +219,14 @@ body {
 	}
 
 	.link-buttons {
-		flex-wrap: wrap;
+		flex-direction: column;
+		/* flex-wrap: wrap; */
 		justify-content: center;
 		gap: 10px;
 	}
 
 	#contact {
-		height: 95vh;
+		height: 90vh;
 		flex: 1;
 	}
 
