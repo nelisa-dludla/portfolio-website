@@ -1,4 +1,4 @@
-# Nelisa Dludla's Personal Portfolio Page
+# Personal Portfolio Page
 
 Welcome to my personal portfolio page! This website showcases my skills, projects, and contact information, providing an overview of my work as a software developer.
 
