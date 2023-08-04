@@ -4,10 +4,17 @@
 
 html {
 	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+}
+
+.icon-text {
+	font-family: Montserrat, sans-serif;
+	font-weight: normal;
 }
 
 body {
 	background-color: #FAF9F6;
+	color: #000000;
 }
 
 #navbar {
@@ -19,18 +26,13 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	/* border: 3px solid black; */
+	background-color: #FAF9F6;
 }
 
 #site-name {
 	font-weight: bold;
 	padding: 5px 16px;
-	/* border: 3px solid black; */
 }
-
-/* #site-links {
-	border: 3px solid black;
-} */
 
 .nav-links {
 	text-decoration: none;
@@ -45,8 +47,8 @@ body {
 
 /* HOME SECTION */
 #home {
-	padding-top: 12.5%;
-	padding-left: 20%;
+	padding-top: 25vh;
+	padding-left: 20vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -57,9 +59,8 @@ body {
 }
 
 .hero {
-	font-size: 70px;
-	margin: 5px 0;
-	/* border: 3px solid black; */
+	font-size: 4rem;
+	margin: 0.5vh 0;
 }
 
 .highlight {
@@ -68,19 +69,167 @@ body {
 
 .headings {
 	text-align: center;
+	font-size: 2.5rem;
+	padding-top: 75px;
+	margin-bottom: 10px;
 }
 
-/* ABOUT SECTION */
-#about {
-	height: 100vh;
+.underline {
+	background-color: gray;
+	height: 0.5vh;
+	width: 15vw;
+	margin: 0 auto;
 }
 
 /* PROJECTS SECTION */
 #projects {
-	height: 100vh;
+	height: 295vh;
 }
+
+#project-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	margin-top: 50px;
+}
+
+.project-item {
+	width: 800px;
+	height: 500px;
+	border: 4px solid #d9d9d9;
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+}
+
+.project-link {
+	text-align: center;
+	width: 200px;
+	padding: 10px;
+	border: 4px solid #d9d9d9;
+	margin: 0;
+	padding: 14px 16px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: black;
+}
+
+.project-link:hover {
+	border: 4px solid #ffb703;
+
+}
+
+.link-buttons {
+	display: flex;
+	gap: 50px;
+}
+
+.button-links {
+		text-decoration: none;
+		font-weight: bold;
+		color: #000000;
+		padding: 14px 16px;
+}
+
+
 
 /* CONTACT SECTION */
 #contact {
-	height: 100vh;
+	height: 90vh;
+}
+
+#icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px 40px;
+	margin-top: 100px;
+}
+
+.icon-text {
+	margin-left: 8px;
+}
+
+.contact-link {
+	padding: 15px;
+	font-size: 1.3rem;
+}
+
+.contact-link:hover {
+	background-color: #ffb703;
+}
+
+.contact-line-one {
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-align: center;
+	max-width: 600px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-line-two {
+	font-size: 1.7rem;
+	text-align: center;
+	max-width: 900px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+}
+
+/* Styles for screens with a width of 0px to 767px (usually mobile devices) */
+@media screen and (max-width: 767px) {
+	#navbar {
+		flex-direction: column;
+		position: absolute;
+	}
+
+	#home {
+		height: 100vh;
+	}
+
+	.hero {
+		font-size: 4rem;
+		margin: 0.5vh 0;
+	}
+
+	#projects {
+		height: 220vh;
+	}
+
+	.project-item {
+		width: 80%;
+		height: 300px;
+	}
+
+	.link-buttons {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	#contact {
+		height: 105vh;
+	}
+
+	#icons {
+		flex-wrap: wrap;
+	}
+}
+
+/* Styles for screens with a width of 768px to 1023px (usually tablets and small desktops) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.project-item {
+		width: 80%;
+		height: 400px;
+	}
 }
