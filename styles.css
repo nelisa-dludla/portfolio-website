@@ -412,74 +412,8 @@ body {
 		}
 
 		/* Background Design */
-		.bg-icon2, .bg-icon5,.bg-icon8, .bg-icon11, .bg-icon13 {
+		.bg-icon1, .bg-icon2, .bg-icon3, .bg-icon4, .bg-icon5, .bg-icon6, .bg-icon7, .bg-icon8, .bg-icon9, .bg-icon10, .bg-icon11, .bg-icon12, .bg-icon13, .bg-icon14, .bg-icon15 {
 			display: none;
-		}
-
-		.bg-icon1 {
-			position: absolute;
-			top: 70%;
-			right: 5%;
-			transform: rotate(30deg);
-		}
-
-		.bg-icon3 {
-			position: absolute;
-			top: 40%;
-			right: 5%;
-		}
-
-		.bg-icon4 {
-			position: absolute;
-			top: 90%;
-			right: 25%;
-		}
-
-		.bg-icon6 {
-			top: 81%;
-			right: 2%;
-		}
-
-		.bg-icon7 {
-			position: absolute;
-			top: 25%;
-			right: 26%;
-			transform: rotate(-15deg);
-		}
-
-		.bg-icon9 {
-			position: absolute;
-			top: 80%;
-			right: 21%;
-			transform: rotate(3deg);
-		}
-
-		.bg-icon10 {
-			position: absolute;
-			top: 27%;
-			right: 8%;
-			transform: rotate(6deg);
-		}
-
-		.bg-icon12 {
-			position: absolute;
-			top: 87%;
-			right: 5%;
-			transform: rotate(-4deg);
-		}
-
-		.bg-icon14 {
-			position: absolute;
-			top: 18%;
-			right: 5%;
-			transform: rotate(-4deg);
-		}
-
-		.bg-icon15 {
-			position: absolute;
-			top: 55%;
-			right: 8%;
-			transform: rotate(-4deg);
 		}
 	  }
 }
