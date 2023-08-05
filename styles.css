@@ -17,6 +17,137 @@ body {
 	color: #000000;
 }
 
+/* Background Design */
+.bg-icon1 {
+	position: absolute;
+	top: 70%;
+	right: 5%;
+	font-size: 5rem;
+	transform: rotate(30deg);
+	z-index: -1;
+}
+
+.bg-icon2 {
+	position: absolute;
+	top: 50%;
+	right: 22%;
+	font-size: 5rem;
+	transform: rotate(-30deg);
+	z-index: -1;
+}
+
+.bg-icon3 {
+	position: absolute;
+	top: 40%;
+	right: 5%;
+	font-size: 5rem;
+	z-index: -1;
+}
+
+.bg-icon4 {
+	position: absolute;
+	top: 90%;
+	right: 25%;
+	font-size: 3rem;
+	z-index: -1;
+}
+
+.bg-icon5 {
+	position: absolute;
+	top: 20%;
+	right: 15%;
+	font-size: 3rem;
+	z-index: -1;
+}
+
+.bg-icon6 {
+	position: absolute;
+	top: 81%;
+	right: 12%;
+	font-size: 3rem;
+	z-index: -1;
+}
+
+.bg-icon7 {
+	position: absolute;
+	top: 25%;
+	right: 26%;
+	font-size: 2.5rem;
+	transform: rotate(-15deg);
+	z-index: -1;
+}
+
+.bg-icon8 {
+	position: absolute;
+	top: 60%;
+	right: 15%;
+	font-size: 2.5rem;
+	z-index: -1;
+}
+
+.bg-icon9 {
+	position: absolute;
+	top: 80%;
+	right: 21%;
+	font-size: 2.5rem;
+	transform: rotate(3deg);
+	z-index: -1;
+}
+
+.bg-icon10 {
+	position: absolute;
+	top: 27%;
+	right: 8%;
+	font-size: 2.5rem;
+	transform: rotate(6deg);
+	z-index: -1;
+}
+
+.bg-icon11 {
+	position: absolute;
+	top: 39%;
+	right: 13%;
+	font-size: 2.5rem;
+	z-index: -1;
+}
+
+.bg-icon12 {
+	position: absolute;
+	top: 87%;
+	right: 5%;
+	font-size: 2.5rem;
+	transform: rotate(-4deg);
+	z-index: -1;
+}
+
+.bg-icon13 {
+	position: absolute;
+	top: 65%;
+	right: 27%;
+	font-size: 2.5rem;
+	transform: rotate(-4deg);
+	z-index: -1;
+}
+
+.bg-icon14 {
+	position: absolute;
+	top: 13%;
+	right: 5%;
+	font-size: 2.5rem;
+	transform: rotate(-4deg);
+	z-index: -1;
+}
+
+.bg-icon15 {
+	position: absolute;
+	top: 55%;
+	right: 8%;
+	font-size: 3rem;
+	transform: rotate(-4deg);
+	z-index: -1;
+}
+
+
 #navbar {
 	position: fixed;
 	top: 0;
@@ -30,12 +161,14 @@ body {
 }
 
 #site-name {
+	font-size: 1.2rem;
 	font-weight: bold;
 	padding: 5px 16px;
 }
 
 .nav-links {
 	text-decoration: none;
+	font-size: 1.2rem;
 	font-weight: bold;
 	color: #000000;
 	padding: 14px 16px;
@@ -43,6 +176,10 @@ body {
 
 .nav-links:hover {
 	background-color: #d9d9d9;
+}
+
+.fa-solid {
+	font-size: 1.1rem;
 }
 
 /* HOME SECTION */
@@ -251,6 +388,100 @@ body {
 		flex-wrap: wrap;
 		margin-top: 6vh;
 	}
+
+	/* Background Design */
+	.bg-icon1, .bg-icon2, .bg-icon3, .bg-icon4, .bg-icon5, .bg-icon6, .bg-icon7, .bg-icon8, .bg-icon9, .bg-icon10, .bg-icon11, .bg-icon12, .bg-icon13, .bg-icon14, .bg-icon15 {
+		display: none;
+	}
+
+	@media screen and (orientation: landscape) {
+		/* Adjust styles for small screens in landscape mode here */
+		#home {
+			height: 190vh;
+			padding-top: 50vh;
+			padding-left: 10vw;
+			padding-right: 10vw;
+		}
+
+		#projects {
+			height: 550vh;
+		}
+
+		#contact {
+			height: 150vh;
+		}
+
+		/* Background Design */
+		.bg-icon2, .bg-icon5,.bg-icon8, .bg-icon11, .bg-icon13 {
+			display: none;
+		}
+
+		.bg-icon1 {
+			position: absolute;
+			top: 70%;
+			right: 5%;
+			transform: rotate(30deg);
+		}
+
+		.bg-icon3 {
+			position: absolute;
+			top: 40%;
+			right: 5%;
+		}
+
+		.bg-icon4 {
+			position: absolute;
+			top: 90%;
+			right: 25%;
+		}
+
+		.bg-icon6 {
+			top: 81%;
+			right: 2%;
+		}
+
+		.bg-icon7 {
+			position: absolute;
+			top: 25%;
+			right: 26%;
+			transform: rotate(-15deg);
+		}
+
+		.bg-icon9 {
+			position: absolute;
+			top: 80%;
+			right: 21%;
+			transform: rotate(3deg);
+		}
+
+		.bg-icon10 {
+			position: absolute;
+			top: 27%;
+			right: 8%;
+			transform: rotate(6deg);
+		}
+
+		.bg-icon12 {
+			position: absolute;
+			top: 87%;
+			right: 5%;
+			transform: rotate(-4deg);
+		}
+
+		.bg-icon14 {
+			position: absolute;
+			top: 18%;
+			right: 5%;
+			transform: rotate(-4deg);
+		}
+
+		.bg-icon15 {
+			position: absolute;
+			top: 55%;
+			right: 8%;
+			transform: rotate(-4deg);
+		}
+	  }
 }
 
 /* Styles for screens with a width of 768px to 1023px (usually tablets and small desktops) */
@@ -258,5 +489,92 @@ body {
 	.project-item {
 		width: 80%;
 		height: 400px;
+	}
+
+	/* Background Design */
+	.bg-icon1 {
+		position: absolute;
+		top: 70%;
+		right: 5%;
+		transform: rotate(30deg);
+	}
+
+	.bg-icon2 {
+		display: none;
+	}
+
+	.bg-icon3 {
+		position: absolute;
+		top: 40%;
+		right: 5%;
+	}
+
+	.bg-icon4 {
+		position: absolute;
+		top: 90%;
+		right: 25%;
+	}
+
+	.bg-icon5 {
+		display: none;
+	}
+
+	.bg-icon6 {
+		top: 81%;
+		right: 2%;
+	}
+
+	.bg-icon7 {
+		position: absolute;
+		top: 25%;
+		right: 26%;
+		transform: rotate(-15deg);
+	}
+
+	.bg-icon8 {
+		display: none;
+	}
+
+	.bg-icon9 {
+		position: absolute;
+		top: 80%;
+		right: 21%;
+		transform: rotate(3deg);
+	}
+
+	.bg-icon10 {
+		position: absolute;
+		top: 27%;
+		right: 8%;
+		transform: rotate(6deg);
+	}
+
+	.bg-icon11 {
+		display: none;
+	}
+
+	.bg-icon12 {
+		position: absolute;
+		top: 87%;
+		right: 5%;
+		transform: rotate(-4deg);
+	}
+
+	.bg-icon13 {
+		display: none;
+	}
+
+	.bg-icon14 {
+		position: absolute;
+		top: 18%;
+		right: 5%;
+		transform: rotate(-4deg);
+	}
+
+	.bg-icon15 {
+		position: absolute;
+		top: 55%;
+		right: 8%;
+		transform: rotate(-4deg);
 	}
 }
