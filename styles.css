@@ -90,7 +90,8 @@ body {
 
 /* PROJECTS SECTION */
 #projects {
-	height: 300vh;
+	border-bottom: 3px solid black;
+	padding-bottom: 100px;
 }
 
 #project-container {
@@ -216,10 +217,6 @@ body {
 		margin: 0.5vh 0;
 	}
 
-	#projects {
-		height: 250vh;
-	}
-
 	.project-item {
 		width: 80%;
 		height: 300px;
@@ -249,7 +246,6 @@ body {
 	}
 
 	#contact {
-		height: 90vh;
 		flex: 1;
 	}
 
@@ -261,18 +257,9 @@ body {
 	@media screen and (orientation: landscape) {
 		/* Adjust styles for small screens in landscape mode here */
 		#home {
-			height: 190vh;
 			padding-top: 50vh;
 			padding-left: 10vw;
 			padding-right: 10vw;
-		}
-
-		#projects {
-			height: 550vh;
-		}
-
-		#contact {
-			height: 150vh;
 		}
 	  }
 }
