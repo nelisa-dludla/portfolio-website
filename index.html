@@ -1,65 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./styles.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 		<script src="https://kit.fontawesome.com/84325e05c5.js" crossorigin="anonymous"></script>
 		<title>Nelisa Dludla</title>
 	</head>
 	<body>
 		<header>
-			<nav id="navbar">
-				<div id="site-name">
+			<nav>
+				<div class="personal__logo">
 					<p><i class="fa-solid fa-terminal" style="color: #ffb703;"></i> nelisadludla.dev</p>
 				</div>
-				<div id="site-links">
-					<a class="nav-links" href="#home">Home</a>
-					<a class="nav-links" href="#projects">Projects</a>
-					<a class="nav-links" href="#contact">Contact</a>
-				</div>
+				<ul class="nav__link--list">
+					<li class="nav__link">
+						<a  href="#languages" class="
+						nav__link--anchor
+						link__hover-affect
+						link__hover-affect--black
+						">Languages</a>
+					</li>
+					<li class="nav__link">
+						<a href="#projects" class="
+						nav__link--anchor
+						link__hover-affect
+						link__hover-affect--black
+						">Projects</a>
+					</li class="nav__link">
+					<li>
+						<a href="#contact" class="
+						nav__link--anchor
+						nav__link--anchor--primary
+						">Contact</a>
+					</li>
+				</ul>
 			</nav>
-			<section id="home">
-				<h1 class="hero">Hi,</h1>
-				<h1 class="hero">I'm Nelisa,</h1>
-				<h1 class="hero highlight">software developer</h1>
-				<p class="description">focused on converting ideas into refined and effective solutions.</p>
+		</header>
+		<main>
+			<section id="about-me">
+				<div class="row">
+					<h1 class="about-me__title">Hi,</h1>
+					<h1 class="about-me__title">I'm Nelisa,</h1>
+					<h1 class="about-me__title text--orange">software developer</h1>
+					<p class="about-me__description">focused on converting ideas into refined and effective solutions.</p>
+				</div>
+			</section>
+			<section id="languages">
+				<div class="container">
+					<div class="row">
+						<h1 class="section__title">This is my <span class="text--orange">technology stack</span></h1>
+						<div class="language__list">
+							<div class="language">
+								<figure class="language__img--wrapper">
+									<img src="./assets/html-5.png" alt="HTML Logo" class="language__img">
+								</figure>
+								<span class="language__name">HTML</span>
+							</div>
+							<div class="language">
+								<figure class="language__img--wrapper">
+									<img src="./assets/css.png" alt="CSS Logo" class="language__img">
+								</figure>
+								<span class="language__name">CSS</span>
+							</div>
+							<div class="language">
+								<figure class="language__img--wrapper">
+									<img src="./assets/javascript.png" alt="JavaScript Logo" class="language__img">
+								</figure>
+								<span class="language__name">JavaScript</span>
+							</div>
+							<div class="language">
+								<figure class="language__img--wrapper">
+									<img src="./assets/python.png" alt="Python Logo" class="language__img">
+								</figure>
+								<span class="language__name">Python</span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section id="projects">
-				<h2 class="headings">Projects</h2>
-				<div class="underline"></div>
-				<div id="project-container">
-					<div class="project-item"></div>
-					<div class="link-buttons">
-						<p class="project-link"><a class="button-links" href="#" target="_blank">View Code</a></p>
-						<p class="project-link"><a class="button-links" href="#" target="_blank">Live Demo</a></p>
-					</div>
-					<div class="project-item"></div>
-					<div class="link-buttons">
-						<p class="project-link"><a class="button-links" href="#" target="_blank">View Code</a></p>
-						<p class="project-link"><a class="button-links" href="#" target="_blank">Live Demo</a></p>
-					</div>
-					<div class="project-item"></div>
-					<div class="link-buttons">
-						<p class="project-link"><a class="button-links" href="#" target="_blank">View Code</a></p>
-						<p class="project-link"><a class="button-links" href="#" target="_blank">Live Demo</a></p>
+				<div class="container">
+					<div class="row">
+						<h2 class="section__title">Here are some of my <span class="text--orange">projects</span></h2>
+						<ul class="project__list">
+							<li class="project">
+								<div class="project__wrapper">
+									<img src="./assets/placeholder-project-image.png" class="project__img" alt="">
+									<div class="project__description">
+										<h3 class="project__description--title">[Project Name]</h3>
+										<h4 class="project__description--sub-title">
+											[Tech Stack]
+										</h4>
+										<p class="project__description--para">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut magnam maiores vitae fuga veniam fugit. Rem voluptatem, reprehenderit itaque pariatur consequatur vel totam! Ad dolore eius officia doloremque quia sed veritatis aut maiores accusantium doloribus!
+										</p>
+										<div class="project__description--links">
+											<a href="https://github.com/nelisa-dludla" target="_blank" class="project__description--link">
+												<i class="fa-brands fa-github"><span class="project__description--link--text">View Code</span></i>
+											</a>
+											<a href="#" class="project__description--link">
+												<i class="fa-solid fa-link"><span class="project__description--link--text">Live Demo</span></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="project">
+								<div class="project__wrapper">
+									<img src="./assets/placeholder-project-image.png" class="project__img" alt="">
+									<div class="project__description">
+										<h3 class="project__description--title">[Project Name]</h3>
+										<h4 class="project__description--sub-title">
+											[Tech Stack]
+										</h4>
+										<p class="project__description--para">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut magnam maiores vitae fuga veniam fugit. Rem voluptatem, reprehenderit itaque pariatur consequatur vel totam! Ad dolore eius officia doloremque quia sed veritatis aut maiores accusantium doloribus!
+										</p>
+										<div class="project__description--links">
+											<a href="https://github.com/nelisa-dludla" target="_blank" class="project__description--link">
+												<i class="fa-brands fa-github"><span class="project__description--link--text">View Code</span></i>
+											</a>
+											<a href="#" class="project__description--link">
+												<i class="fa-solid fa-link"><span class="project__description--link--text">Live Demo</span></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="project">
+								<div class="project__wrapper">
+									<img src="./assets/placeholder-project-image.png" class="project__img" alt="">
+									<div class="project__description">
+										<h3 class="project__description--title">[Project Name]</h3>
+										<h4 class="project__description--sub-title">
+											[Tech Stack]
+										</h4>
+										<p class="project__description--para">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut magnam maiores vitae fuga veniam fugit. Rem voluptatem, reprehenderit itaque pariatur consequatur vel totam! Ad dolore eius officia doloremque quia sed veritatis aut maiores accusantium doloribus!
+										</p>
+										<div class="project__description--links">
+											<a href="https://github.com/nelisa-dludla" target="_blank" class="project__description--link">
+												<i class="fa-brands fa-github"><span class="project__description--link--text">View Code</span></i>
+											</a>
+											<a href="#" class="project__description--link">
+												<i class="fa-solid fa-link"><span class="project__description--link--text">Live Demo</span></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</section>
 			<section id="contact">
-				<h2 class="headings">Contact</h2>
-				<div class="underline"></div>
-				<p class="contact-line-one">Let's connect and collaborate!</p>
-				<p class="contact-line-two">Feel free to reach out to me via social media or drop me an email.</p>
-				<div id="icons">
-					<a class="contact-link" href="https://github.com/nelisa-dludla" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"><span class="icon-text">GitHub</span></i></a>
-					<a class="contact-link" href="https://twitter.com/Nelisa_Dludla" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"><span class="icon-text">Twitter</span></i></a>
-					<a class="contact-link" href="https://www.linkedin.com/in/nelisa-dludla/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"><span class="icon-text">LinkedIn</span></i></a>
-					<a class="contact-link" href="mailto:nelisa.dludla@outlook.com" target="_blank"><i class="fa-solid fa-at" style="color: #000000;"><span class="icon-text">Email Me</span></i></a>
+				<div class="container">
+					<div class="row">
+						<h2 class="section__title">Let's <span class="text--orange">connect</span> and collaborate!</h2>
+						<figure class="contact__img--container">
+							<img src="./assets/undraw_connected_world.svg" class="contact__img" alt="">
+							<p class="contact__img--para">Feel free to reach out to me via social media or drop me an email.</p>
+						</figure>
+						<div class="contact__links">
+							<a class="
+							contact__link
+							link__hover-affect
+							link__hover-affect--black
+							" href="https://github.com/nelisa-dludla" target="_blank">
+								<i class="fa-brands fa-github contact__link--icon"><span class="contact__link--text">GitHub</span></i>
+							</a>
+							<a class="
+							contact__link
+							link__hover-affect
+							link__hover-affect--black
+							" href="https://twitter.com/Nelisa_Dludla" target="_blank">
+								<i class="fa-brands fa-twitter contact__link--icon"><span class="contact__link--text">Twitter</span></i>
+							</a>
+							<a class="
+							contact__link
+							link__hover-affect
+							link__hover-affect--black
+							" href="https://www.linkedin.com/in/nelisa-dludla/" target="_blank">
+								<i class="fa-brands fa-linkedin contact__link--icon"><span class="contact__link--text">LinkedIn</span></i>
+							</a>
+							<a class="
+							contact__link
+							link__hover-affect
+							link__hover-affect--black
+							" href="mailto:nelisa.dludla@outlook.com" target="_blank">
+								<i class="fa-solid fa-at contact__link--icon"><span class="contact__link--text">Email Me</span></i>
+							</a>
+						</div>
+					</div>
 				</div>
 			</section>
-		</header>
+		</main>
 		<footer id="footer">
 			<p>Copyright <i class="fa-regular fa-copyright"></i> 2023, Nelisa Dludla</p>
 		</footer>
