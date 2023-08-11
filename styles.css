@@ -292,6 +292,7 @@ nav {
 }
 
 .contact__img--para {
+	color: gray;
 	font-size: 1.7rem;
 	text-align: center;
 	max-width: 900px;
@@ -315,6 +316,7 @@ nav {
 }
 
 .contact__link--text {
+	color: gray;
 	margin-left: 8px;
 }
 
@@ -332,6 +334,7 @@ nav {
 	justify-content: center;
 	width: 100%;
 	padding: 20px;
+	color: gray;
 }
 
 .contact__link--text {
@@ -411,7 +414,7 @@ nav {
 	}
 
 	.contact__img--para {
-		font-size: 1.2rem;
+		font-size: 1.27rem;
 	}
 
 	.contact__links {
