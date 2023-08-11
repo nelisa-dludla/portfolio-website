@@ -7,6 +7,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6, span {
 	color: #242424;
 	text-align: center;
@@ -21,6 +25,11 @@ p {
 a {
 	text-decoration: none;
 	position: relative;
+	transition: opacity 300ms ease;
+}
+
+i:hover {
+	opacity: 0.7
 }
 
 .link__hover-affect:after {
@@ -131,7 +140,31 @@ nav {
 .about-me__description {
 	color: gray;
 	font-size: 1.2rem;
+}
 
+.about-me__title--animation1 {
+	animation: fade-up 400ms ease;
+}
+
+.about-me__title--animation2 {
+	animation: fade-up 600ms ease;
+}
+
+.about-me__description--animation {
+	animation: fade-up 800ms ease;
+
+}
+
+@keyframes fade-up {
+	0% {
+		opacity: 0;
+		transform: translateY(40px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 /* LANGUAGES */
@@ -312,11 +345,11 @@ nav {
 }
 
 .contact__link--icon {
-	color: #000000;
+	color: #242424;
 }
 
 .contact__link--text {
-	color: gray;
+	color: #242424;
 	margin-left: 8px;
 }
 
