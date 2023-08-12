@@ -1,5 +1,7 @@
 # Personal Portfolio Page
 
+<img src="./assets/screenshots/portfolio-landing-page.png" alt="Portfolio Landing Page" width="800px">
+
 Welcome to my personal portfolio page! This website showcases my skills, projects, and contact information, providing an overview of my work as a software developer.
 
 ## Table of Contents
@@ -8,17 +10,19 @@ Welcome to my personal portfolio page! This website showcases my skills, project
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Responsiveness](#responsiveness)
-- [Hosting on GitHub Pages](#hosting-on-github-pages)
+- [View Live](#view-live)
 - [Feedback and Contact](#feedback-and-contact)
 - [Conclusion](#conclusion)
 
 ## Project Structure
 
-The project consists of two main files:
+The project consists of two main files and one folder:
 
 1. `index.html`: This file contains the HTML structure of the portfolio page, including the navigation bar, sections for home, projects, and contact, and the footer.
 
 2. `styles.css`: This file contains the CSS styling for the portfolio page, defining the layout, colors, and typography used in the HTML elements.
+
+3. `assets`: This folder contains the icons, images and screenshots used.
 
 ## Technologies Used
 
@@ -48,9 +52,9 @@ I designed the portfolio page to be responsive and adapt to different screen siz
 
 - For screens with a width of 768px to 1023px (usually tablets and small desktops), the project items are slightly larger, making better use of the available space.
 
-## Hosting on GitHub Pages
+## View Live
 
-I have hosted my personal portfolio page on GitHub Pages, making it accessible to everyone online. To view the live version of the page, you can visit the following link:
+To explore my portfolio website, you can visit the following link: https://nelisadludla.pages.dev
 
 ## Feedback and Contact
 
